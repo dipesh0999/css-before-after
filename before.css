@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.nav-1{
+    font-weight: 700px;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+}
+.nav-2{
+    font-weight: 700px;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.css-before-tool{
+    width: 1300px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.css-before-tool img{
+    width: 1300px;
+    height: 700px;
+}
+.css-before-tool h3{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+}
+.css-before-tool::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to left bottom, #0519377d, #3e205b7d, #850464a1, #c5004ccc, #eb1212);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
