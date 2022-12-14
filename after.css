@@ -5,9 +5,7 @@
 }
 .navigation{
     width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 20px 0px;
+    margin: 20px auto;
 }
 .nav{
     list-style: none;
